@@ -1,2 +1,8 @@
-package fr.kira.formation.spring;public class Moteur {
+package fr.kira.formation.spring;
+
+import org.springframework.stereotype.Component;
+
+
+public interface Moteur {
+    public String getMarque();
 }
